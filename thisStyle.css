@@ -1,0 +1,35 @@
+.base-block {
+    display: grid;
+    grid-template-columns: repeat(6, 220px);
+    grid-template-rows: repeat(3, 100px);
+    column-gap: 10px;
+}
+
+.block {
+    font-weight: bold;
+    text-align: center;
+    vertical-align: center;
+    border: solid 1px black;
+}
+
+.first {
+    grid-column: span 2;
+}
+
+.second {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.third {
+    grid-row: span 2;
+}
+
+.tenth {
+    grid-column: span 2;
+}
+
+.eleventh {
+    grid-row: 3;
+    grid-column: 3;
+}
